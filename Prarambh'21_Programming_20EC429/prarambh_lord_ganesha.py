@@ -3,7 +3,7 @@ import turtle
 
 # Binary Image
 
-img = cv2.imread('2.jp', 2)
+img = cv2.imread('x.xpy', 2)
 ret, bw_img = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
 width = int(img.shape[1])
 height = int(img.shape[0])
